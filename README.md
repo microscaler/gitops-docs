@@ -1,6 +1,6 @@
 # Weave GitOps Docs - Re-Hosted
 
-These docs are published as: [docs.microscaler.org](https://docs.microscaler.org)
+These docs are published as: [docs.microscaler.com](https://docs.microscaler.com)
 
 You can easily repeat the same trick using Fermyon Cloud!
 
