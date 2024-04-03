@@ -1,0 +1,16 @@
+spin_manifest_version = 2
+
+[application]
+name = "docs"
+version = "0.1.0"
+authors = ["Kingdon P Barrett <kingdon@tuesdaystudios.com>"]
+description = "docs.gitops"
+
+[[trigger.http]]
+# route = "/static/..."
+route = "/..."
+component = "docs"
+
+[component.docs]
+source = { url = "https://github.com/fermyon/spin-fileserver/releases/download/v0.2.1/spin_static_fs.wasm", digest = "sha256:5f05b15f0f7cd353d390bc5ebffec7fe25c6a6d7a05b9366c86dcb1a346e9f0f" }
+files = [{ source = "assets", destination = "/" }]
