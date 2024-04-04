@@ -1,10 +1,10 @@
 spin_manifest_version = 2
 
 [application]
-name = "docs"
+name = "docs-gitops-weave"
 version = "0.1.0"
 authors = ["Kingdon P Barrett <kingdon@tuesdaystudios.com>"]
-description = "docs.gitops"
+description = "docs.gitops.weave.works"
 
 [[trigger.http]]
 # route = "/static/..."
